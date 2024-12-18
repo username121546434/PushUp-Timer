@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 1.5s;
+    overflow: hidden;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.config-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.config-section label {
+    margin: 5px 0;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #2196F3;
+    transition: all 1.5s ease;
+    margin: 20px 0;
+}
+
+.timer-text {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Dynamic dimming */
+body.dim {
+    background-color: #333;
+    color: #ccc;
+}
+
+#cancelBtn {
+    display: none;
+    padding: 10px 20px;
+    background-color: #FF5722;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#cancelBtn:hover {
+    background-color: #e64a19;
+}
